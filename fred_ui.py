@@ -38,7 +38,7 @@ st.set_page_config(
 )
 
 FRED_BASE = "https://api.stlouisfed.org/fred"
-MODEL = "claude-opus-4-6"
+MODEL = "claude-sonnet-4-6"
 
 # Keys: .env (local) → st.secrets (Streamlit Cloud) → env var
 def _secret(key: str) -> str:
