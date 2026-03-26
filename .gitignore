@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+dashboard.html
+fred_chart.html
